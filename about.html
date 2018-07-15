@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Home</title>
+	<title>About</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="keywords" content="" />
@@ -20,7 +19,7 @@
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<link href="css/simpleLightbox.css" rel='stylesheet' type='text/css' />
+	<link href="css/team.css" rel='stylesheet' type='text/css' />
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Poppins:100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
 </head>
@@ -35,14 +34,15 @@
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 				</button>
+
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mx-auto tp-nav text-center">
-						<li class="nav-item active">
+					<ul class="navbar-nav mx-auto tp-nav">
+						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link" href="about.html">About</a>
 						</li>
 						<li class="nav-item">
@@ -75,72 +75,14 @@
 	<!--//header-->
 
 	<!--/banner-->
-	<div class="banner">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-			</ol>
-			<div class="carousel-inner" role="listbox">
-				<div class="carousel-item active">
-					<div class="carousel-caption">
-						<h3>Best Creative Agency for your needs</h3>
-
-						<div class="bnr-button">
-							<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-								<i class="fas fa-play"></i>
-							</button>
-						</div>
-
-					</div>
-				</div>
-				<div class="carousel-item item2">
-					<div class="carousel-caption">
-						<h3>We Deliver Quality Projects.</h3>
-
-						<div class="bnr-button">
-							<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-								<i class="fas fa-play"></i>
-							</button>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item item3">
-					<div class="carousel-caption">
-						<h3>Best Creative Agency for your needs</h3>
-
-						<div class="bnr-button">
-							<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-								<i class="fas fa-play"></i>
-							</button>
-						</div>
-
-					</div>
-				</div>
-				<div class="carousel-item item4">
-					<div class="carousel-caption">
-						<h3>We Deliver Quality Projects.</h3>
-
-						<div class="bnr-button">
-							<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-								<i class="fas fa-play"></i>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
+	<div class="banner-inner">
 	</div>
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="index.html">Home</a>
+		</li>
+		<li class="breadcrumb-item active">About</li>
+	</ol>
 	<!--/model-->
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -153,7 +95,7 @@
 					</button>
 				</div>
 				<div class="modal-body video">
-					<iframe src=""></iframe>
+					<iframe src="https://player.vimeo.com/video/33531612"></iframe>
 
 				</div>
 				<div class="modal-footer">
@@ -166,23 +108,24 @@
 	<!--//model-->
 	<!--//banner-->
 	<section class="banner-bottom">
-		<div class="container">
+		<div class="container marketing">
 
 			<!-- Three columns of text below the carousel -->
 			<div class="row inner-sec-w3layouts-agileinfo">
 
-				<div class="col-lg-5 bt-bottom-info" data-aos="fade-right">
+				<div class="col-lg-5 bt-bottom-info" data-aos="fade-left">
 					<h5>We help our customer to build Digital World</h5>
 
 				</div>
-				<div class="col-lg-7 bt-bottom-info" data-aos="fade-left">
-					<p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque
+				<div class="col-lg-7 bt-bottom-info ab">
+					<img src="images/ab.png" class="img-responsive" alt=" ">
+					<p class="ab-para" data-aos="fade-right">Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque
 						convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget pulvinar neque
 						pharetra ac.</p>
 				</div>
 			</div>
 			<div class="row inner-sec-w3layouts-agileinfo">
-				<div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+				<div class="col-lg-4 bottom-sub-grid text-center" data-aos="zoom-in">
 					<div class="bt-icon">
 
 						<span class="fas fa-trophy"></span>
@@ -195,7 +138,7 @@
 					</p>
 				</div>
 				<!-- /.col-lg-4 -->
-				<div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+				<div class="col-lg-4 bottom-sub-grid text-center" data-aos="zoom-in">
 					<div class="bt-icon">
 						<span class="far fa-thumbs-up"></span>
 					</div>
@@ -207,7 +150,7 @@
 					</p>
 				</div>
 				<!-- /.col-lg-4 -->
-				<div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+				<div class="col-lg-4 bottom-sub-grid text-center" data-aos="zoom-in">
 					<div class="bt-icon">
 						<span class="fas fa-tv"></span>
 					</div>
@@ -220,6 +163,7 @@
 				</div>
 				<!-- /.col-lg-4 -->
 			</div>
+
 		</div>
 		<!-- /.row -->
 		</div>
@@ -256,7 +200,124 @@
 	<!--/services-->
 	<section class="services">
 		<div class="container">
-			<h3 class="tittle_w3ls">Unlimited Features</h3>
+			<h3 class="tittle_w3ls">Amazing Team</h3>
+			<div class="row inner-sec-w3layouts-agileinfo">
+				<div class="col-md-3 col-sm-6 team-grids" data-aos="flip-left">
+					<img src="images/p1.jpg" class="img-responsive" alt="">
+					<div class="team-info">
+						<div class="caption">
+							<h4>John Doe</h4>
+							<h6>Founder
+								<h6>
+						</div>
+						<div class="social-icons-section">
+							<a class="fac" href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a class="twitter" href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a class="pinterest" href="#">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 team-grids" data-aos="flip-right">
+					<img src="images/p2.jpg" class="img-responsive" alt="">
+					<div class="team-info">
+						<div class="caption">
+							<h4>Alina Smith</h4>
+							<h6>Director</h6>
+						</div>
+						<div class="social-icons-section">
+							<a class="fac" href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a class="twitter" href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a class="pinterest" href="#">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 team-grids" data-aos="flip-left">
+					<img src="images/p3.jpg" class="img-responsive" alt="">
+					<div class="team-info">
+						<div class="caption">
+							<h4>Adam Lobster</h4>
+							<h6>Developer</h6>
+						</div>
+						<div class="social-icons-section">
+							<a class="fac" href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a class="twitter" href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a class="pinterest" href="#">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 team-grids" data-aos="flip-right">
+					<img src="images/p4.jpg" class="img-responsive" alt="">
+					<div class="team-info">
+						<div class="caption">
+							<h4>Christina </h4>
+							<h6>Marketer</h6>
+						</div>
+						<div class="social-icons-section">
+							<a class="fac" href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a class="twitter" href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a class="pinterest" href="#">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--//services-->
+	<!---->
+	<section class="grids_sec_2">
+		<div class="row style-grids_main">
+			<div class="col-md-6 grid_sec_info">
+				<div class="style-grid-2-text_info" data-aos="fade-right">
+					<h3>We are composer one of the best in web designing.</h3>
+					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
+						tempora incidunt ut labore .</p>
+					<div class="bnr-button">
+						<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+							<i class="fas fa-play"></i>
+						</button>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-6 style-image-2">
+			</div>
+
+		</div>
+	</section>
+	<!---->
+	<!--/services-->
+	<section class="services">
+		<div class="container">
+			<h3 class="tittle_w3ls">Amazing Features</h3>
 			<div class="row inner-sec-w3layouts-agileinfo">
 				<div class="col-lg-4 grid_info_main" data-aos="flip-left">
 					<div class="grid_info">
@@ -307,163 +368,9 @@
 		</div>
 	</section>
 	<!--//services-->
-	<!---->
-	<section class="grids_sec_2">
-		<div class="row style-grids_main">
-			<div class="col-md-6 grid_sec_info">
-				<div class="style-grid-2-text_info" data-aos="fade-right">
-					<h3>We are composer one of the best in web designing.</h3>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-						tempora incidunt ut labore .</p>
-					<div class="bnr-button">
-						<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-							<i class="fas fa-play"></i>
-						</button>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-md-6 style-image-2">
-			</div>
-			<div class="col-md-6 style-image-2 second">
-			</div>
-			<div class="col-md-6 grid_sec_info">
-				<div class="style-grid-2-text_info" data-aos="fade-right">
-					<h3>We are composer one of the best in web designing.</h3>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-						tempora incidunt ut labore .</p>
-					<div class="bnr-button">
-						<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
-							<i class="fas fa-play"></i>
-						</button>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</section>
-	<!--/Projects-->
-	<section class="services">
-		<div class="container">
-			<h3 class="tittle_w3ls">Our Works</h3>
-			<div class="row inner-sec-w3layouts-agileinfo">
-
-				<div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-					<div class="section_1_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g1.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g1.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g2.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g2.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g3.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g3.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-					<div class="section_1_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g4.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g4.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g5.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g5.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g6.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g6.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-					<div class="section_1_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g7.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g7.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g8.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g8.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="section_1_gallery_grid" data-aos="zoom-in">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g9.jpg">
-							<div class="section_1_gallery_grid1">
-								<img src="images/g9.jpg" alt=" " class="img-responsive" />
-								<div class="proj_gallery_grid1_pos">
-									<h3>Digital Biz</h3>
-									<p>Add some text</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-
-
-			</div>
-		</div>
-	</section>
-	<!--//Projects-->
-	<!--reviews_sec-->
+	<!--/reviews_sec-->
 	<section class="reviews_sec" id="testimonials">
-		<h3 class="tittle_w3ls cen">Testimonial</h3>
+		<h3 class="tittle_w3ls_w3ls cen">Testimonial</h3>
 		<div class="inner-sec-w3layouts-agileinfo">
 			<section class="slider">
 				<div class="flexslider">
@@ -719,16 +626,22 @@
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<!-- //js -->
-	<!-- simpleLightbox -->
-	<script src="js/simpleLightbox.js"></script>
+	<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
 	<script>
-		$('.proj_gallery_grid a').simpleLightbox();
+		$('.counter').countUp();
 	</script>
-	<!-- //simpleLightbox -->
+	<!-- //stats -->
+		<!-- /js files -->
+		<link href='css/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
+		<link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+		<script src='js/aos.js'></script>
+		<script src="js/aosindex.js"></script>
+		<!-- //js files -->
 	<!-- flexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript">
-	 
 	  $(window).load(function(){
 		$('.flexslider').flexslider({
 		  animation: "slide",
@@ -741,19 +654,6 @@
   
 	<!-- //flexSlider -->
 
-	<!-- stats -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
-	<script>
-		$('.counter').countUp();
-	</script>
-	<!-- //stats -->
-	<!-- /js files -->
-	<link href='css/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
-	<link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
-	<script src='js/aos.js'></script>
-	<script src="js/aosindex.js"></script>
-	<!-- //js files -->
 	<!-- start-smoth-scrolling -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
@@ -790,7 +690,6 @@
 		<span id="toTopHover" style="opacity: 1;"> </span>
 	</a>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
 
 </body>
 
