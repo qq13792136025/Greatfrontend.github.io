@@ -36,7 +36,7 @@
 
 	};
 
-	// Animations
+	// 活动
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -94,7 +94,7 @@
 
 	};
 
-	// Click outside of offcanvass
+	// 在画布外点击
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
@@ -145,7 +145,7 @@
 
 	};
 
-	// Document on load.
+	// 文档加载。
 	$(function(){
 		fullHeight();
 		contentWayPoint();

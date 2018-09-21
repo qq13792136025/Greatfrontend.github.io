@@ -7,8 +7,6 @@
 }
 /* =======================================================
 *
-* 	Template Style 
-*	Edit this section
 *
 * ======================================================= */
 body {
@@ -512,11 +510,13 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  line-height: auto;
+  line-height: auto; 
 }
 .blog-entry .desc h3 a {
   color: #000;
   text-decoration: none;
+  text-overflow:ellipsis;
+  white-space:nowrap;
 }
 .blog-entry .desc span {
   display: block;
@@ -1171,4 +1171,4 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* */
