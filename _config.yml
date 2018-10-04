@@ -1,12 +1,12 @@
 # Site settings
-title: sonya的博客
-email: 1281855126@qq.com
+title: xiaolu的博客
+email: 1500357600@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  sonya的博客
+  xiaolu的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://sonya1.github.io # the base hostname & protocol for your site
+url: http://q.top404.cn # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
-author: Sonya
+author: xiaolu
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
@@ -16,23 +16,23 @@ recent_num: 20
 # Social account
 twitter:
 weibo: 
-github: sonya1
+github: xiaolu
 instagram: 
 linkedin: 
 
 
 # avatar and Favicon
-avatar: /assets/img/sonya.jpg
-favicon: /assets/img/sonya.ico
+avatar: /assets/img/xiaolu.jpg
+favicon: /assets/img/xiaolu.ico
 
 # disqus config
 disqus:
-  shortname: sonya-zh
+  shortname: xiaolu
 
 # google analytics config
 ga:
   id: 
-  url: sonya1.github.io
+  url: Greatfrontend.github.io
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
